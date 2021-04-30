@@ -1,0 +1,252 @@
+ Date and Time Variables
+SUGGEST EDITS
+The date and time variable is a type of variable that enables you to store information about any date and time. This type of variable
+ can be found in the Bro
+wse and Select
+ a
+ .
+N
+e
+t
+ 
+T
+
+y
+p
+e
+ 
+w
+i
+nd
+o
+w
+,
+ 
+u
+nd
+er
+ 
+th
+
+e 
+
+S
+y
+s
+te
+m
+ n
+am
+e
+sp
+a
+ce
+ 
+S
+y
+st
+e
+m.
+D
+a
+te
+T
+
+i
+m
+e.
+ 
+F
+o
+r 
+m
+o
+r
+e
+ 
+i
+nf
+o
+rm
+a
+ti
+o
+n
+, 
+s
+ee
+ 
+B
+r
+ow
+s
+in
+g
+ f
+or
+ 
+.
+N
+et
+ 
+V
+a
+ri
+ab
+l
+e 
+T
+y
+p
+e
+s
+.
+
+
+
+
+
+F
+o
+r 
+e
+x
+am
+p
+l
+e
+, 
+t
+he
+y
+ c
+an
+ 
+be
+ 
+us
+e
+d 
+t
+o 
+ap
+p
+en
+d
+ d
+a
+te
+s
+ t
+o 
+i
+nv
+o
+ic
+e
+s 
+o
+r 
+an
+y
+ o
+t
+he
+r
+ d
+o
+c
+u
+me
+n
+t
+s
+ y
+o
+u 
+m
+ay
+ b
+e
+ w
+o
+rk
+i
+ng
+ w
+i
+th
+ 
+an
+d
+ a
+r
+e 
+ti
+m
+e-
+s
+en
+s
+it
+i
+ve
+.
+
+
+
+
+E
+x
+a
+m
+p
+l
+e 
+o
+f 
+U
+s
+in
+g
+ a
+ 
+D
+a
+te
+ a
+n
+d 
+Time Variable
+To exemplify how you can work with a date a
+nd time variable,
+ w
+e
+ a
+r
+e 
+g
+oi
+n
+g 
+to
+ 
+bu
+i
+ld
+ 
+an
+ 
+automation that gets the current date and time, subtracts a specific amount of time and writes the result to a Microsoft Excel spreadsheet.
+
+Create a new sequence.
+Create two DateTime variables, Today and L	astTime.
+Creat	e	 a	 	T	i	me	S	p	a	n 	v	a	ri	a	bl	e	, 	ca	l	le	d	 	S	pa	n	, 	a	nd	 i	n	 t	h	e 	D	e	fault field type 1.02:10:04.
+Note:
+The default value attributed to theSpan variable uses the day.hh:mm:ss format.
+
+Add an Assign ACTIVITY TO THE dESIGNER PANEL.
+iN THE pROPERTIES PANEL, IN THE tO FIELD, ADD THE tODAY VARIABLE.
+iN THE vALUE FIELD, TYPE nOW. this gives you thE DATE and time wHEN THE PRoject is exeCUTED, in the dd?mm/YYYY and hh:mm:ss FORMATS.add anothER aSSIGn actiVITy under tHE ties panel, in the To field, add the LastTime variable.
+In the Value field, type Today.Subtract(Span). This is going to subtract the default value of the Span variable from the current date and time, stored in the TodaY VARIABLE.
+aDD AN eXCEL aPPLICATION sCOPE ACTIVITY UNDER THE LAST aSSIGN ONE.

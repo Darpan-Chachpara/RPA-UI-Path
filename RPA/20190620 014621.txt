@@ -1,0 +1,147 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Retrieved 
+
+from 
+
+"
+
+?
+
+/
+
+" title=Cloud_computing&oldid=902497865 
+
+x x Close 
+
+Celebrate PRIDE and share your LGBT+ photographs, and health and 
+
+art writing in our competition. #wikilovespride Take part 
+
+Cloud Jump Jump computing 
+
+From to to Wikipedia, the free encyclopedia 
+
+navigation search 
+
+For the winner of the 2017 Preakness Stakes, see Cloud Computing (horse) . 
+
+Cloud computing computer system resources data storage computing power 
+
+is the on-demand availability of , especially and Internet , without direct active 
+
+management by the user. The term is generally used to describe data centers available to many users over the . Large clouds, predominant today, 
+
+often have edge functions server distributed over multiple locations from central servers. If the connection to the user is relatively close, it may be designated an . 
+
+Clouds may be limited to a single organization (enterprise clouds  ), be available to many organizations (public cloud), or a combination of both 
+
+(hybrid cloud ). 
+
+Cloud computing relies on sharing of resources to achieve coherence and economies of scale . 
+
+Advocates of public and hybrid clouds note that cloud computing allows companies to avoid or minimize up-front IT infrastructure costs. Proponents also 
+
+claim that cloud computing allows enterprises to get their applications up and running faster, with improved manageability and less maintenance, and that it 
+
+enables IT teams to more rapidly adjust resources to meet fluctuating and unpredic table dem and.   Cloud provi ders typically  use a "pay-as-you-go" Cloud computing metaphor: the 
+
+model, which can lead to unex pected operating ex p e n s e s  i f  a dm i ni s t r a to r s are not familiarized with cloud-pricing models.  group of networked  elements providi n g   se rv i ce s  n e ed   no t  b e  i n di v id u al l y  
+ 
+ T h e   a v a i l a bi l i t y   o f   h i g h- ca p ac i t y  n et w o rk s ,   l o w - co s t  co  m p u t er s   a nd   st o r ag e   d e v i c e s  a s  w el l  a s  t he   w id e sp r ea d   a do p ti o n  o f   h ar d wa r e virtualization , addressed or , managed by users; 
+
+service-oriented architecture and autonomic and utility computing has led to growth in cloud computing.    instead, the entire provi
+der-managed 
+
+suite
+ 
+o
+f
+ h
+ar
+d
+wa
+r
+e
+ a
+n
+d 
+s
+of
+tw
+a
+re
+ 
+can be 
+
+Contents thought of as an amorphous cloud. 
+
+1 History 
+
+1.1 Early history 
+
+1.2 2000s 
+
+1.3 2010s 
+
+2 Similar concepts 

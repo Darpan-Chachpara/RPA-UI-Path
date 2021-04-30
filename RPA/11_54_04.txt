@@ -1,0 +1,22 @@
+ Date and Time Variables
+SUGGEST EDITS
+The date and time variable is a type of variable that enables you to store information about any date and time. This type of variable can be found in the Browse and Select a .Net Type window, under the System namespace System.DateTime. For more information, see Browsing for .Net Variable Types.
+
+For example, they can be used to append dates to invoices or any other documents you may be working with and are time-sensitive.
+
+Example of Using a Date and Time Variable
+To exemplify how you can work with a date and time variable, we are going to build an automation that gets the current date and time, subtracts a specific amount of time and writes the result to a Microsoft Excel spreadsheet.
+
+Create a new sequence.
+Create two DateTime variables, Today and LastTime.
+Create a TimeSpan variable, called Span, and in the Default field type 1.02:10:04.
+Note:
+The default value attributed to theSpan variable uses the day.hh:mm:ss format.
+
+Add an Assign activity to the Designer panel.
+In the Properties panel, in the To field, add the Today variable.
+In the Value field, type Now. This gives you the date and time when the project is executed, in the dd/MM/yyyy and hh:mm:ss formats.
+Add another Assign activity under the previous one.
+In the Properties panel, in the To field, add the LastTime variable.
+In the Value field, type Today.Subtract(Span). This is going to subtract the default value of the Span variable from the current date and time, stored in the Today variable.
+Add an Excel Application Scope activity under the last Assign one.

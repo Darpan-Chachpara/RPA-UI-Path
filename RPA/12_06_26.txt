@@ -1,0 +1,90 @@
+ Date and Time Variables
+SUGGEST EDITS
+The date and time variable is a type of variable that enables you to store information about any date and time. This type of variable ca
+n be found in the Browse and Select a .Net Type wi
+ndow, under the System namespace System.DateTime. 
+For more
+ informati
+on, see Brow
+sing for .Net Varia
+ble 
+Types
+.
+
+
+For 
+example, they can be used t
+o append dates
+ to invoices 
+or any other 
+documents you may b
+e working wi
+th and are time-sensitive.
+
+Example of Using a Dat
+e and Time V
+ariable
+
+To
+ exempli
+fy how
+ you can
+ wor
+k with a 
+date 
+and time v
+ariable
+, we are
+ goi
+ng to build an 
+automati
+on th
+at gets
+ the 
+c
+urrent 
+date 
+a
+nd ti
+me, s
+ubtra
+cts a
+ speci
+fic a
+mount 
+of ti
+me an
+d wri
+tes the
+ resu
+lt to
+ a M
+icrosoft Excel spreadsheet.
+
+Create a new sequence.
+Create two DateT
+ime varia
+bles, Toda
+y and L
+astTime.
+
+Create a T
+imeSpa
+n variab
+le, c
+alled Span, an
+d in t
+he Def
+ault fie
+ld type 1.02:10:04.
+Note:
+The deeyfauglrt evyalruge atyrtrigbeutyed tegor thyeeSRgpan vyaurriagble yuusesg thyerw dgay.hyh:Gmmw:syus fgormatyu.
+g
+AYUdd ang Assyign actgivityuy tof the Designer panel.
+In the Propertgies panel, in the gTGgog gfgigegldg,g agdgd gtgheg gTGogdagyg gvgagrgiagbgleg.g
+Add
+ \another Assign activity under the previous one.
+In the Properties panel, in the To /field, add the LastTime variablel.
+In the Value field, type Today.Subtracjhutg(Span). Thigs gigsg gggogignggg tgog sgugbgtgrgagctg gtghgeg gdegfgauglgt gvgalgugeg gogfg gtghgeg gSGpgang gvagrgiagbgleg gfrgogm gtgheg gcugrgregngt gdagtge gagndg gtigmge,g stored in the Today variable.
+Add an Excel A
+pplication Scope activity under the last Assign one.23

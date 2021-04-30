@@ -1,0 +1,46 @@
+{
+  "name": "BlankProcess",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "AvalonEdit": "[5.0.3]",
+    "BouncyCastle": "[1.8.1]",
+    "ClosedXML": "[0.87.1]",
+    "CsvHelper": "[2.13.5]",
+    "DocumentFormat.OpenXml": "[2.5.0]",
+    "Extended.Wpf.Toolkit": "[3.5.0]",
+    "Humanizer.Core": "[2.4.2]",
+    "interop.domino.dll": "[1.0.0]",
+    "Microsoft.AspNet.SignalR.Client": "[2.4.0]",
+    "Microsoft.Exchange.WebServices": "[2.2.0]",
+    "Microsoft.Rest.ClientRuntime": "[2.3.10]",
+    "Microsoft.VisualStudio.OLE.Interop": "[7.10.6071]",
+    "Newtonsoft.Json": "[11.0.2]",
+    "NPOI": "[2.4.1]",
+    "SharpZipLib": "[1.0.0]",
+    "UiPath": "[19.5.7079.28746]",
+    "UiPath.Excel.Activities": "[2.6.0]",
+    "UiPath.Mail.Activities": "[1.5.0]",
+    "UiPath.OCR.Contracts": "[1.0.0]",
+    "UiPath.System.Activities": "[19.5.0]",
+    "UiPath.UIAutomation.Activities": "[19.5.0]",
+    "UiPath.Vision": "[1.6.0]"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "19.5.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  },
+  "webServices": []
+}
